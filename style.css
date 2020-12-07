@@ -155,9 +155,7 @@ nav {
     justify-content: space-between;
 }
 
-.round_img {
-    border-radius: 100%
-}
+
 
 .content {
     padding: 6vh 0 0 0;
@@ -189,4 +187,13 @@ nav {
     font-family: 'Roboto Mono', monospace;
     padding: 10px 12px;
     border-radius: 2px;
+}
+
+.round_img {
+    border-radius: 100%
+}
+
+.small_thumb {
+    width: 18px;
+    height: auto;
 }
