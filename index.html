@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embedding Images and Videos - The Odin Project</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:500|Roboto:600">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:500|Roboto:600|Roboto:500">
 </head>
 <body>
     <nav class="justify_space_between">
@@ -29,135 +29,136 @@
     </nav>
     <div class="content">
         <aside class="float_right">
-            <div>
-                <span>Up Next</span>
-                <span>Autplay</span>
-                <img src="/images/slider.png" alt="autoplay slider">
-            </div>
-            <div>
-                <img id="side1" src="/images/side1.png" alt="video image">
+            <div class="justify_space_between">
+                <p id="next">Up next</p>
                 <div>
+                    <span id="autoplay">AUTOPLAY</span>
+                    <img id="slider" src="/images/slider.png" alt="autoplay slider">
+                </div>
+            </div>
+            <div class="side_video">
+                <img id="side1" src="/images/side1.png" alt="video image">
+                <div class="side_text_container">
                     <p class="side_lg_text">La Dura Complete: The Hardest Rock Climb in The World</p>
                     <span class="side_sm_text">REEL ROCK</span>
-                    <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">8.5M views • 6 years ago</p>
                 </div>
             </div>
-            <hr>
-            <div>
+            <hr id="nav_hr">
+            <div class="side_video">
                 <img id="side2" src="/images/side2.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">The strength you need to climb 9c // The ultimate climbing test</p>
                     <span class="side_sm_text">Magnus Midtbø</span>
                     <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">648K views • 2 weeks ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side3" src="/images/side3.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">Cool moments in climbing competitions</p>
                     <span class="side_sm_text">Andrea Calligaris</span>
                     <p class="side_sm_text">3.6M views • 7 months ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side4" src="/images/side4.png" alt="video image">
-                <div>
-                    <p class="side_lg_text">Alex Honnold Breaks Down Iconic Rock CLimbing Scenes |...</p>
+                <div class="side_text_container">
+                    <p class="side_lg_text">Alex Honnold Breaks Down Iconic Rock Climbing Scenes |...</p>
                     <span class="side_sm_text">GQ Sports</span>
                     <p class="side_sm_text">9.9M views • 1 year ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side5" src="/images/side5.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">Mix - Adam Ondra</p>
-                    <span class="side_sm_text">Youtube</span>
+                    <span class="side_sm_text">YouTube</span>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side6" src="/images/side6.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">Adam Ondra #69: Belly Full of Bad Berries 8a (5.13b) /uncut...</p>
                     <span class="side_sm_text">Adam Ondra</span>
                     <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">463k views • 5 months ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side7" src="/images/side7.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">How I climbed a 3,000-foot vertical cliff -- without ropes |...</p>
                     <span class="side_sm_text">TED</span>
                     <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">7.3M views • 2 years ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side8" src="/images/side8.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">CLIMBING THE NOSE - Jorg Verhoeven's ascent of the mos...</p>
                     <span class="side_sm_text">La Sportiva</span>
                     <p class="side_sm_text">2.8M views • 5 years ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side9" src="/images/side9.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">Alex Honnold Climbs Angola</p>
                     <span class="side_sm_text">VICE Sports</span>
                     <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">3.5M views • 4 years ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side10" src="/images/side10.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">LA RESISTENCIA - Entrevista a Adam Ondra | #LaResistencia...</p>
                     <span class="side_sm_text">La Resistencia en Movistar+</span>
                     <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">1.3M views • 2 years ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side11" src="/images/side11.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">Rotpunkt: Bibliographie | Alex Megos climbs his hardest...</p>
                     <span class="side_sm_text">Patagonia</span>
                     <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">684K views • 2 weeks ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side12" src="/images/side12.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">2019 USA Climbing: Combined Invitational | Women's Finals</p>
                     <span class="side_sm_text">USA Climbing</span>
                     <p class="side_sm_text">1.7M views • 1 year ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side13" src="/images/side13.png" alt="video image">
-                <div>
-                    <p class="side_lg_text">Adam Ondra climbing Change - World's first 9b+ route</p>
+                <div class="side_text_container">
+                    <p class="side_lg_text">Adam Ondra climbing Change - World's first 9b+ route (2012)</p>
                     <span class="side_sm_text">Bernartwood</span>
                     <p class="side_sm_text">1.1M views • 4 years ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side14" src="/images/side14.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">Adidas ROCKSTARS 2019 - Finals</p>
                     <span class="side_sm_text">Bouldering TV</span>
                     <p class="side_sm_text">702K views • 1 year ago</p>
                 </div>
             </div>
-            <div>
+            <div class="side_video">
                 <img id="side15" src="/images/side15.png" alt="video image">
-                <div>
+                <div class="side_text_container">
                     <p class="side_lg_text">SURFING WITH WORLD CHAMPION ITALO FERREIRA</p>
-                    <span class="side_sm_text">Jamie O'brien</span>
+                    <span class="side_sm_text">Jamie O'Brien</span>
                     <img class="side_checkmark" src="/images/verified.png" alt="verified checkmark">
                     <p class="side_sm_text">139K views • 2 days ago</p>
                 </div>

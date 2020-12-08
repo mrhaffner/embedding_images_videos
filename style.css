@@ -142,6 +142,9 @@ nav {
     padding-right: 2px;
 }
 
+hr {
+}
+
 .inline {
     display: inline;
 }
@@ -168,6 +171,57 @@ nav {
 
 .float_right {
     float: right;
+    margin-right: 35px;
+}
+
+#next {
+    font-size: 16px;
+}
+
+#autoplay {
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #606060;
+    position: relative;
+    top: -15px;
+}
+
+#slider {
+    position: relative;
+    top: -5px;
+    right: -2px;
+}
+
+#nav_hr {
+    margin: 10px 0;
+}
+
+.side_video {
+    display: flex;
+    padding: 1px 0;
+}
+
+.side_text_container {
+    width: 210px;
+    padding: 5px 0 0 5px;
+    line-height: 1.2;
+}
+
+.side_lg_text {
+    font-weight: 500;
+    color: #030303;
+}
+
+.side_sm_text {
+    font-size: 13px;
+    color: #606060;
+    line-height: 1.4;
+}
+
+.side_checkmark {
+    position: relative;
+    top: 5px;
+    right: 2px;
 }
 
 .main {}
