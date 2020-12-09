@@ -162,6 +162,16 @@ hr {
 
 .content {
     padding: 6vh 0 0 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    right: 5px;
+}
+
+.content_container {
+    display: flex;
+    max-width: 1695px;
 }
 
 .like_video {
@@ -169,10 +179,6 @@ hr {
     border-bottom: 2px solid grey;
 }
 
-.float_right {
-    float: right;
-    margin-right: 35px;
-}
 
 #next {
     font-size: 16px;
@@ -224,7 +230,9 @@ hr {
     right: 2px;
 }
 
-.main {}
+.main {
+    margin-right: 25px;
+}
 
 .player {
     display: block;
@@ -239,7 +247,7 @@ hr {
     font-weight: 500;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
-    padding: 10px 12px;
+    padding: 9px 12px;
     border-radius: 2px;
 }
 
