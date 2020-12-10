@@ -171,7 +171,7 @@ hr {
 
 .content_container {
     display: flex;
-    max-width: 1695px;
+    width: 1695px;
 }
 
 .like_video {
@@ -234,10 +234,38 @@ hr {
     margin-right: 25px;
 }
 
+.title {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.lg_views {
+    font-size: 14px;
+    color: #606060;
+    line-height: 1.4;
+}
+
 .player {
     display: block;
     width: 932px;
     height: 524px;
+}
+
+#author {
+    max-width: 615px;
+}
+
+.comment {
+    color: #030303;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.upper_grey { 
+    color: #606060;
+    font-weight: 500;
+    letter-spacing: 0.007px;
+    font-size: 13px;
 }
 
 .subscribe {
@@ -249,6 +277,12 @@ hr {
     font-family: 'Roboto Mono', monospace;
     padding: 9px 12px;
     border-radius: 2px;
+}
+
+.comment_author {
+    font-weight: 500;
+    color: #030303;
+    font-size: 13px;
 }
 
 .round_img {
