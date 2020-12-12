@@ -62,7 +62,7 @@ nav {
     height: 56px;
     align-items: center;
     background-color: white;
-    /* padding: 20vh 0 2vh 0; */
+    z-index: 1;
 }
 
 #nav_left {
@@ -230,8 +230,8 @@ hr {
 
 .player {
     display: block;
-    width: 932px;
-    height: 524px;
+    width: 1275px;
+    height: 717px;
 }
 
 .title {
