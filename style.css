@@ -281,6 +281,14 @@ hr {
     top: -7px;
 }
 
+.description_container {
+    margin: 22px 0;
+}
+
+#author_img {
+    margin-right: 14px;
+}
+
 .grey_btn_text {
     color: #606060;
     font-weight: 500;
@@ -292,16 +300,37 @@ hr {
     max-width: 615px;
 }
 
+.subscribers {
+    margin: 1px 0 15px 0;
+}
+
+.show_more {
+     margin-top: 12px;
+}
+
+#comments_title_container {
+    margin: 16px 0 30px 0;
+}
+
 .comments_title {
     font-weight: 400;
     font-size: 16px;
-    margin: 25px 0 15px 0;
+}
+
+.sort_container {
+    margin-left: 26px;
+}
+
+#skewed_burger {
+    position: relative;
+    top: 7px;
 }
 
 .comment {
     color: #030303;
     font-weight: 400;
     line-height: 20px;
+    margin: 6px 0 14px 0;
 }
 
 .upper_grey { 
@@ -328,11 +357,48 @@ hr {
     font-size: 13px;
 }
 
+.comment_container {
+    margin-bottom: 26px;
+}
+
+#comment_line {
+    width: 1000px;
+}
+
 .round_img {
-    border-radius: 100%
+    border-radius: 100%;
+    margin-right: 18px;
+    width: 40px;
+    height: auto;
 }
 
 .small_thumb {
-    width: 18px;
+    width: 20px;
     height: auto;
+    position: relative;
+    top: 5px;
+}
+
+.comment_votes {
+    margin: 0 8px 0 2px;
+}
+
+.comment_reply_container {
+    margin-top: 10px;
+}
+
+.reply {
+    margin-left: 18px;
+}
+
+.view_replies {
+    position: relative;
+    top: -5px;
+    color: #065fd4;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: 500;
 }
