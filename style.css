@@ -174,12 +174,6 @@ hr {
     width: 1695px;
 }
 
-.like_video {
-    padding-bottom: 6px;
-    border-bottom: 2px solid grey;
-}
-
-
 #next {
     font-size: 16px;
 }
@@ -234,9 +228,16 @@ hr {
     margin-right: 25px;
 }
 
+.player {
+    display: block;
+    width: 932px;
+    height: 524px;
+}
+
 .title {
     font-weight: 400;
     font-size: 18px;
+    margin: 25px 0 15px 0;
 }
 
 .lg_views {
@@ -245,14 +246,56 @@ hr {
     line-height: 1.4;
 }
 
-.player {
-    display: block;
-    width: 932px;
-    height: 524px;
+#video_options {
+    position: relative;
+    top: -5px;
+    
+}
+
+.video_options_text {
+    position: relative;
+    top: -9px;
+}
+
+.like_video {
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+.options_groups {
+    padding-left: 14px;
+}
+
+#share_arrow {
+    position: relative;
+    top: -2px;
+}
+
+#save_btn {
+    position: relative;
+    top: -2px;
+}
+
+#horizontal_dots {
+    position: relative;
+    top: -7px;
+}
+
+.grey_btn_text {
+    color: #606060;
+    font-weight: 500;
+    letter-spacing: 0.007px;
+    font-size: 14px;
 }
 
 #author {
     max-width: 615px;
+}
+
+.comments_title {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
 }
 
 .comment {
